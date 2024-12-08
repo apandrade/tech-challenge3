@@ -95,7 +95,8 @@ As inferências foram realizadas com 10 entradas de teste. O arquivo `output.txt
 
 2. Aprimorar os hiperparâmetros:
 
-   - Testar diferentes valores para learning_rate, como 3e-5 ou 1e-5, e usar - agendadores de aprendizado, como cosine schedule ou linear warmup.
+   - Testar diferentes valores para learning_rate, como 3e-5 ou 1e-5, e usar 
+   - agendadores de aprendizado, como cosine schedule ou linear warmup.
 
 3. Explorar mais dados:
 
