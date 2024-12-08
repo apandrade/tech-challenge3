@@ -46,30 +46,27 @@ Dois scripts foram criados para sanitização dos dados:
 
 O treinamento foi conduzido com as seguintes configurações:
 
-- **Modelo**: BART (pré-treinado da biblioteca Hugging Face).
+- **Modelo**: BART
 - **Framework**: PyTorch.
 - **Dataset**: AmazonTitles-1.3MM (80% treino, 20% validação).
 - **Hiperparâmetros**:
-  - Batch size: 16
+  - Batch size: 14
   - Learning rate: 5e-5
   - Scheduler: Linear
-  - Otimizador: AdamW
-  - Epochs: 5
-  - Gradiente acumulado: 2
-  - Tokenização: Truncamento em 128 tokens.
-- **Checkpoints**: Salvos a cada 10.000 batches.
+  - Otimizador: AdamW ( padrão da biblioteca Hugging Face )
+  - Epochs: 3
+  - Gradiente acumulado: 4
+  - Tokenização: Truncamento em 512 tokens.
+- **Checkpoints**: Salvos a cada 1.000 passos.
 
 ---
 
 ## 5. Métricas Utilizadas
 
-Para avaliação do modelo, utilizamos:
+Para avaliação do modelo utilizamos as métricar padrão do BART:
 
 - **Loss**: Monitoramento da perda no treinamento e validação.
-- **BLEU Score**: Para medir a similaridade com os textos de referência.
-- **ROUGE Score**: Para avaliar a qualidade das inferências.
-- **Tempo por batch**: Avaliado para verificar viabilidade em produção.
-
+- **Logging Steps**: Configurado para logar a cada 50 passos, registrando métricas padrão, como a perda.
 ---
 
 ## 6. Inferências
