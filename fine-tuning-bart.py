@@ -57,7 +57,7 @@ tokenized_datasets = dataset.map(preprocess_function, batched=True)
 train_dataloader = DataLoader(tokenized_datasets, batch_size=16, shuffle=True, pin_memory=True)
 
 training_args = TrainingArguments(
-    output_dir="./data/results",
+    output_dir="./models-tuned/bart-10per100",
     save_steps=1000,
     save_total_limit=1,
     learning_rate=3e-5,

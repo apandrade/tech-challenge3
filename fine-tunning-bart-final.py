@@ -25,8 +25,8 @@ def preprocess_function(examples):
 
 def save_checkpoint(trainer, output_dir="./models-tuned/bart-final"):
     os.makedirs(output_dir, exist_ok=True)
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    trainer.save_model(f"{output_dir}/model")
+    tokenizer.save_pretrained(f"{output_dir}/tokenizer")
     print(f"Checkpoint salvo: {output_dir}")
 
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
     
     # Configurações de treinamento
     training_args = TrainingArguments(
-        output_dir="./data/results",             # Diretório de saída para resultados e checkpoints
+        output_dir="./models-tuned/bart-final",  # Diretório de saída para resultados e checkpoints
         save_steps=1000,                         # Salva os checkpoints a cada 1000 passos
         save_total_limit=2,                      # Manutenção de apenas 2 checkpoints mais recentes
         learning_rate=5e-5,                      # Taxa de aprendizado inicial indicado para 3 epochs
