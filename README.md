@@ -10,7 +10,7 @@
 
 Video(Youtube):
 
-Github: https://github.com/joirneto/Tech-Challenge-3
+Github: https://github.com/apandrade/tech-challenge3
 
 # Fine-tuning do Modelo BART com o Dataset AmazonTitles-1.3MM
 
