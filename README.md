@@ -85,9 +85,49 @@ As inferências foram realizadas com 10 entradas de teste. O arquivo `output.txt
 - **Pontos Negativos**:
   - Algumas respostas são genéricas ou repetitivas.
 
+
+### Sugestões de melhoria
+
+1. Melhorar o pré-processamento:
+
+   - Adicionar manipulação de textos muito curtos ou vazios para evitar erros na tokenização.
+   - Ajustar dinamicamente o max_length com base na distribuição do comprimento dos dados.
+
+2. Aprimorar os hiperparâmetros:
+
+   - Testar diferentes valores para learning_rate, como 3e-5 ou 1e-5, e usar - agendadores de aprendizado, como cosine schedule ou linear warmup.
+
+3. Explorar mais dados:
+
+   - Adicionar validação cruzada com split dinâmico entre treino e validação para maior robustez.
+   - Considerar um conjunto de validação para monitorar a performance do modelo durante o treinamento.
+
+4. Avaliar métricas:
+
+   - Implementar métricas customizadas para monitorar a qualidade da geração de texto, como BLEU, ROUGE, perplexidade, BERTScore, Coherence Score, Relevance-based Metrics, Human Evaluation.
+
+5. Aprimorar o hardware:
+
+   - Habilitar uso de múltiplas GPUs (se disponíveis) para acelerar o treinamento.
+   - Ajustar o número de núcleos e threads (num_proc e dataloader_num_workers) para aproveitar ao máximo a CPU.
+
+6. Augmentação de dados:
+
+   - Utilizar técnicas de augmentação textual, como substituição de sinônimos ou parafraseamento, para enriquecer o dataset.
+
+7. Fine-tuning mais detalhado:
+
+   - Treinar com mais épocas e introduzir técnicas como early stopping para evitar overfitting.
+   - Utilizar estratégias de regularização adicionais, como dropout dinâmico.
+
+8. Logs e monitoramento:
+
+   - Incorporar o wandb ou TensorBoard para um acompanhamento mais detalhado das métricas durante o treinamento.
+   - Se implementadas, essas melhorias podem ajudar a obter um desempenho significativamente melhor no modelo treinado.
+
 ### Conclusão
 
-O desempenho foi satisfatório, especialmente considerando o ambiente de hardware limitado. O modelo entrega resultados promissores e pode ser otimizado em iterações futuras.
+O desempenho foi satisfatório, especialmente considerando o ambiente de hardware limitado. O modelo entrega resultados promissores e pode ser otimizado em iterações futuras. Podemos utilizar múltiplas métricas (por exemplo, BERTScore, ROUGE e Perplexidade) para capturar diferentes aspectos da qualidade das respostas. Também é possível priorizar métricas baseadas em embeddings ou aprendizado contextual, como BERTScore e COHERENCE, além de complementar avaliações automáticas com avaliações humanas regulares.
 
 ---
 
