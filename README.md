@@ -74,7 +74,7 @@ Para avaliação do modelo, utilizamos:
 
 ## 6. Inferências
 
-As inferências foram realizadas com 1.000 entradas de teste. O arquivo `output.txt` na pasta `inferencias` contém os resultados.
+As inferências foram realizadas com 10 entradas de teste. O arquivo `output.txt` na pasta `inferencias` contém os resultados.
 
 ---
 
