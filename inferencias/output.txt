@@ -1,0 +1,99 @@
+Título: Inferência Inicial Bart
+
+input: Who is the author of 'How to Babysit a Grandma'?
+output: Who is the author of 'How to Babysit a Grandma'?
+
+input: What is the description of 'How to Babysit a Grandma'?
+output: What is the description of 'How to Babysit a Grandma'?
+
+input: Who is the author of 'Evidence-Based Practices for Children with Autism'?
+output: Who is the author of 'Evidence-Based Practices for Children with Autism'?
+
+input: Who are the authors of 'Composición práctica'?
+output: Who are the authors of 'Composición práctica'?
+
+input: Who is the author of 'Cold Cash'?
+output: Who is the author of 'Cold Cash'?
+
+input: What is the description of 'Cold Cash'?
+output: What is the description of 'Cold Cash'?
+
+input: How can I avoid the loss of collagen and elasticity of my skin?
+output: How can I avoid the loss of collagen and elasticity of my skin?
+
+input: What is the best smartphone nowadays?
+output: What is the best smartphone nowadays?
+
+input: which are the cell phones compatible with LG 1100mAh 3.7V Standard Battery?
+output: which are the cell phones compatible with LG 1100mAh 3.7V Standard Battery?
+
+input: For how many volumes is composed the In the Morland Dynasty Series
+output: For how many volumes is composed the In the Morland Dynasty Series
+
+
+Título: Inferência Bart treinado com 10% da base
+
+input: Who is the author of 'How to Babysit a Grandma'?
+output: The author of 'How to Babysit a Grandma' is a well-known author and illustrator. She has written numerous children's books, including 'Babies' and 'Grandma's Book'. She lives in New York City with her husband and two children.
+
+input: What is the description of 'How to Babysit a Grandma'?
+output: "What is the description of 'How to Babysit a Grandma?'&#xA0;This book is a must-read for anyone who wants to learn how to babysit. It is an excellent resource for parents, teachers, and children who want to know more about how babies learn to read and write.&quot;&mdash;Publishers Weekly"This is one of the best books I have read in a long time. I would recommend this book to anyone interested in reading and writing about babies."&rdquo;The New York Times Book Review
+
+input: Who is the author of 'Evidence-Based Practices for Children with Autism'?
+output: &#xA0;This book is a must-read for anyone with autism. It is an excellent introduction to the subject of evidence-based practices for children with Autism. I highly recommend this book to anyone who is interested in learning more about evidence based practices and how they can be used to improve the lives of children and their families.&quot;&mdash;The New York Times Book Review
+
+input: Who are the authors of 'Composición práctica'?
+output: &quot;&#xA0;The authors of 'Composición práctica' are the most well-known and respected writers of the twentieth century, and they have been recognized by the American Academy of Arts and Sciences for their contributions to the field of art and literature. They have also been acknowledged as the leading experts in the fields of literature and art history, as well as as by scholars of philosophy and philosophy.&nbsp;
+
+input: Who is the author of 'Cold Cash'?
+output: &#xA0;The author of 'Cold Cash' is a well-known author, who has written a number of books for children and adults. She has been featured in the New York Timesbestseller list, the Wall Street Journalbestselling book of the year, and the Washington Postbestsellers.
+
+input: What is the description of 'Cold Cash'?
+output: &#xA0;This book is a must-read for anyone who is interested in the subject of cold cash. It is an excellent addition to any collection of Cold Cash books, and it will be a valuable resource for those who want to learn more about cold money.&quot;&mdash;Publishers Weekly
+
+input: How can I avoid the loss of collagen and elasticity of my skin?
+output: &quot;How can I avoid the loss of collagen and elasticity of my skin?&#xA0;I have been looking for a solution to this problem for many years. I have found it in my own research, which has led me to the conclusion that collagen is the most important factor in the appearance of skin, and that it is important to maintain collagen in order to protect the skin from the damage caused by aging and aging. This is why I decided to take a look at collagen. It has been shown to be the key factor for the development of a healthy, healthy skin. The result is a healthier, healthier and more elasticized skin that is more supple and healthier.
+
+input: What is the best smartphone nowadays?
+output: "What is the best smartphone nowadays? What is it that you need to know to get the most out of your phone?"&#xA0;The question is, what does it mean to have a smartphone that is not just a phone, but also a device that can be used to communicate with other people? The answer is simple: it's a great phone. It's great for communicating with others, and it can also be useful for connecting with friends, family, or anyone who is looking for a new way to connect with people. The answers to this question are easy to answer and will be helpful to anyone looking to improve their phone's functionality.
+
+input: which are the cell phones compatible with LG 1100mAh 3.7V Standard Battery?
+output: The LG 1100mAh 3.7V Standard Battery is designed to be compatible with the following cell phones: LG 1300mAh, LG 1800mAh and LG 2100mAh. The battery is made of high quality polycarbonate, which means it can be used with any cell phone.
+
+input: For how many volumes is composed the In the Morland Dynasty Series
+output: The In Morland Dynasty series is composed of the first three volumes of this series. The first two volumes are written in English, and the third is in Japanese.
+
+
+Título: Inferência Bart Final (100% da base)
+
+input: Who is the author of 'How to Babysit a Grandma'?
+output: PreSchool-Grade 2&ndash;In this sequel to the bestselling How to Babysit a Grandma?, a mother and her daughter learn how to babysit her grandchild. The book begins with a brief description of the baby's first day of school, followed by an explanation of how the child can learn to read, write, draw, and play with his or her grandmother. Each chapter ends with an illustration of a child's favorite activity, such as reading, writing, or playing with her Grandpa. This is a good choice for beginning readers, but it is not suitable for middle-grade readers or for those who are looking for a book that will appeal to younger readers. A good purchase for libraries that have a large number of books on the subject.-Carolyn Phelan, formerly at Eastchester Public Library, NYCopyright &copy; Reed Business Information, a division of Reed Elsevier Inc. All rights reserved.--This text refers to an out of print or unavailable edition of this title.
+
+input: What is the description of 'How to Babysit a Grandma'?
+output: PreSchool-Grade 2&ndash;In this title, a young girl describes her Grandma as "a grandpa" and explains how to "babysit a grandma." The book begins with a brief introduction to the subject, followed by an explanation of the meaning of each word. The author then describes how the words are used to describe the various aspects of a Grandpa's life, from the birth of his first child to his death in the early stages of her life. This book is a good introduction for beginning readers. It is well written, well illustrated, and well-illustrated. A good choice for public libraries and libraries with children's books collections.Carolyn Phelan, formerly at East Baton Rouge Parish Main Library, LACopyright &copy; Reed Business Information, an division of Reed Elsevier Inc. All rights reserved.--This text refers to an alternatePaperbackedition.
+
+input: Who is the author of 'Evidence-Based Practices for Children with Autism'?
+output: &#x201C;This book is a must-read for anyone working with children with autism. It is an excellent resource for parents, educators, and professionals who work with autistic children. The authors have done a great job of presenting the information in a way that is easy to understand and understand. I highly recommend this book to parents and educators.&nbsp; I would recommend it to anyone who is interested in the development of evidence-based practices for children who have autism or who wants to know more about what they can do to improve their child&rsquo;s life. This book will be a valuable resource to all parents who are involved in helping their children achieve their full potential and to those who want to help them succeed in their own lives. Highly recommended. Upper-division undergraduates through faculty. Lower-level graduate students.
+
+input: Who are the authors of 'Composición práctica'?
+output: Text: Spanish, English (translation)--This text refers to an out of print or unavailable edition of this title.
+
+input: Who is the author of 'Cold Cash'?
+output: &#8220;The author of Cold Cash is one of the best-selling authors of all time. He is a master storyteller, and his work has been featured in theNew York Times,USA Today,The Wall Street Journal, theLos Angeles TimesandThe Washington Post. His books have been translated into more than twenty-five languages and have sold over one million copies worldwide.&nbsp; He lives in New York City with his wife and two children.
+
+input: What is the description of 'Cold Cash'?
+output: &quot;This book is a must-read for anyone who wants to understand the meaning of 'cold cash'.&#xA0; It will be of great interest to anyone interested in the history of the Cold Cash movement, and to those who want to learn more about how it was organized and organized. It is also an excellent introduction to the subject. I highly recommend it to all who are serious about understanding the nature of cold cash and its impact on the lives of people who live in it. This book will also be a valuable resource for those seeking a deeper understanding of Cold cash, as well as for the general reader who is looking for a more comprehensive overview of this important topic.&rdquo;&mdash;David J. Dyer, Professor of Economics, University of California, Berkeley
+
+input: How can I avoid the loss of collagen and elasticity of my skin?
+output: "This book is a must-read for anyone who is concerned about the loss of collagen and elasticity of their skin. It is written in an easy-to-understand style, and is easy to read and understand. I highly recommend this book to anyone with an interest in the health and beauty of the human body." --Dr. Robert J. Dyer, M.D., author of The Complete Guide to Skin Care
+
+input: What is the best smartphone nowadays?
+output: &#8220;What is the best smartphone nowadays? is a must-read for anyone who wants to know more about the world's most popular smartphone, and what it is to do about it. It is also a great read for those who are new to the smartphone market and want to understand what is going on in the market today. I highly recommend this book to anyone with an interest in smartphone technology and its impact on the lives of the people who use it, as well as those with a passion for the technology that is at the heart of it all.&quot;&nbsp; (Kirkus Reviews, starred review)
+
+input: which are the cell phones compatible with LG 1100mAh 3.7V Standard Battery?
+output: This battery is compatible with the following cell phone models: LG Optimus G2, LG G3, G4S,LG G5,G5S. This battery has been tested and validated to ensure it will work with your cell phones. It is 100% brand new and comes with a 1 year warranty. We guarantee our products without defects in materials and workmanship. If the product is found to have problems under normal circumstance, demand for a return is acceptable. Meeting standards of ISO 9001&14001, we produce products with high quality components and rigorously test every aspect of the production process.Please be informed that this product has NO affiliation with, or otherwise endorsed by, any manufacturer, and is in direct violation of any applicable law.
+
+input: For how many volumes is composed the In the Morland Dynasty Series
+output: The In the Morland Dynasty series is the first in a new series of novels by the author of the popular In The Morlands series. The series begins with the story of a young man who is sent to live with his family in the Scottish Highlands. He has a great deal to learn about the history of Scotland and the people who live there. This is a very interesting book, and I would recommend it to anyone interested in Scottish history.
+
+
