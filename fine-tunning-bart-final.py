@@ -88,14 +88,12 @@ if __name__ == '__main__':
         train_dataset=tokenized_datasets,
     )
     
-    # Treinamento com salvamento ao final
+ # Treinamento com salvamento ao final
     print("Iniciando o treinamento...")
     
     try:
         trainer.train()
+        save_checkpoint(trainer)
+        print("Treinamento concluído!")
     except Exception as e:
         print(f"Ocorreu um erro durante o treinamento: {e}")
-
-    save_checkpoint(trainer)
-        
-    print("Treinamento concluído!")
